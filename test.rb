@@ -3,7 +3,8 @@ $file = 'C:\Users\Ronnie\Desktop\Coding\Ruby\vm_db.yml'
 $filedoc = 'C:\Users\Ronnie\Desktop\Coding\Ruby\user_files.yml'
 $users = File.exists?($file) ? YAML::load_file($file): $users = {}
 $filedoc = File.exists?($filedoc) ? YAML::load_file($filedoc): $files = {}
-
+#test comment
+#test comment 2
 $sign_up_success = false
 $file_created = false
 $logged_in = false
