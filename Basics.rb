@@ -133,7 +133,6 @@ module Example       # modules store constants and act as toolboxes
   CONSTANT = value   # module constants can be called with Example::CONSTANT
 end
 
-
 word = gets.chomp                 # Frames a specific word in asterisks
 frame = '*' * (4 + word.size)   #       
 puts frame                      #        *************
