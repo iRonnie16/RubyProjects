@@ -1,6 +1,6 @@
 require 'yaml'
-$file = 'C:\Users\Ronnie\Desktop\Coding\Ruby\vm_db.yml'
-$filedoc = 'C:\Users\Ronnie\Desktop\Coding\Ruby\user_files.yml'
+$file = 'C:\Users\Ronnie\Desktop\Coding\Ruby\VirtualMachine\vm_db.yml'
+$filedoc = 'C:\Users\Ronnie\Desktop\Coding\Ruby\VirtualMachine\user_files.yml'
 $users = File.exists?($file) ? YAML::load_file($file): $users = {}
 $filedoc = File.exists?($filedoc) ? YAML::load_file($filedoc): $files = {}
 #test comment

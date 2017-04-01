@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 require 'yaml'
-file = 'C:\Users\Ronnie\Desktop\Coding\Ruby\test.yml'
+file = 'C:\Users\Ronnie\Desktop\Coding\Ruby\Movielist.yml'
 movies = File.exists?(file) ? YAML::load_file(file): movies = Hash.new 
 p "What would you like to do?" 
 p "-- Type 'add' to add a movie."
